@@ -3,3 +3,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    padding: 10px;
+    background-color: rgb(200, 120, 2);
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
