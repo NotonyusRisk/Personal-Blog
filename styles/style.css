@@ -6,13 +6,18 @@
 
 body{
     padding: 10px;
-    background-color: rgb(200, 120, 2);
+    background-color: rgb(223, 151, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
     padding: 30px;
     text-align: center;
-    /* align-items: center; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 ul{
@@ -22,8 +27,12 @@ ul{
     list-style: none;
 }
 
-li{
+li, h1, button{
     padding: 10px;
+}
+
+h1{
+    padding-top: 30px;
 }
 
 img{
@@ -31,6 +40,8 @@ img{
     width: 100px;
 }
 
-h1, button{
-    padding: 10px;
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
